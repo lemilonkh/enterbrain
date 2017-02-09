@@ -12,7 +12,7 @@ class TopLevelScreenComponent extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            message: 'Welcome to top level component of this app.',
+            message: 'Welcome! Hello World!',
             dispatchMessage: 'Dispatch an action to:',
             passActionDispatchValue: 1,
             failActionDispatchValue: 0,

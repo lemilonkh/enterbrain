@@ -16,7 +16,7 @@ class TopLevelComponentWeb extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            message: 'Welcome to top level component of this app.',
+            message: 'Hello World to web!',
             dispatchMessage: 'Dispatch an action to:',
             passActionDispatchValue: 1,
             failActionDispatchValue: 0,
