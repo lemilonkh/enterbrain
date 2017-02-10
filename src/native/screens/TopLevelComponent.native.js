@@ -1,13 +1,8 @@
 import React from 'react';
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 import  SampleAction from '../../common/actions/SampleAction';
 import TopLevelScreenComponent from '../../common/components/TopLevelScreenComponent'
-import {
-    StyleSheet,
-    Text,
-    View,
-    Button
-} from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 class TopLevelComponentNative extends React.Component {
     constructor(props, context) {
@@ -19,7 +14,7 @@ class TopLevelComponentNative extends React.Component {
             failActionDispatchValue: 0,
         };
         this.passDispatchedAction = this.passDispatchedAction.bind(this);
-        this.failDispatchedAction = this.failDispatchedAction.bind(this)
+        this.failDispatchedAction = this.failDispatchedAction.bind(this);
     }
 
     passDispatchedAction() {
@@ -38,8 +33,7 @@ class TopLevelComponentNative extends React.Component {
                 <TopLevelScreenComponent
                     passDispatchedAction={this.passDispatchedAction}
                     failDispatchedAction={this.failDispatchedAction}
-                    message={this.props.sampleReducer.message}
-                />
+                    message={this.props.sampleReducer.message} />
             </View>
         );
     }
@@ -68,10 +62,8 @@ const styles = StyleSheet.create({
 
 function mapStateToProps(state) {
     return ({
-            sampleReducer: state.sampleReducer
-        }
-
-    )
+        sampleReducer: state.sampleReducer
+    })
 }
 
 export default connect(mapStateToProps)(TopLevelComponentNative);

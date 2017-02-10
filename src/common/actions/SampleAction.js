@@ -13,7 +13,6 @@ export default function SampleAction(input) {
         }
         else if (input === 0) {
             dispatch(somethingFailed(payloadIfFailed))
-
         }
     }
 }

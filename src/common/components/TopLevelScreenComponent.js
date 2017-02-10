@@ -32,18 +32,14 @@ class TopLevelScreenComponent extends React.Component {
                         {this.state.dispatchMessage}
                     </Text>
                     <View style={styles.button}>
-
                         <Button
                             title={"Pass"}
-                            onPress={this.props.passDispatchedAction}
-                        />
+                            onPress={this.props.passDispatchedAction} />
                     </View>
                     <View style={styles.button}>
-
                         <Button
                             title={"Fail"}
-                            onPress={this.props.failDispatchedAction}
-                        />
+                            onPress={this.props.failDispatchedAction} />
                     </View>
                 </View>
                 <Text style={styles.biggerText}>
@@ -71,4 +67,3 @@ const styles = StyleSheet.create({
 });
 
 export default TopLevelScreenComponent;
-
