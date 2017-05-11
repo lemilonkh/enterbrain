@@ -26,7 +26,7 @@ This starter kit has different branches based on what general requirements are(m
 
 ---
 
-##Wiring Up:
+## Wiring Up:
 ```
 git clone https://github.com/amoghbanta/reactNativeEverywhere.git yourProjectName
 cd yourProjectName
@@ -36,7 +36,7 @@ npm i
 ```
 ---
 
-##Run the project:
+## Run the project:
 #### Pre-requisites:
 Node.js & npm on your system([follow this](https://docs.npmjs.com/getting-started/installing-node))<br/>
 react-native CLI (`npm install -g react-native-cli`)
