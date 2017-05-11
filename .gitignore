@@ -245,3 +245,6 @@ bower_components
 .bower-registry
 .bower-tmp
 
+
+### own ###
+resources/logos/
