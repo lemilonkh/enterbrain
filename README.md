@@ -1,4 +1,7 @@
-# ReactNativeEverywhere :globe_with_meridians: :iphone: :computer:
+# EnterBrain :globe_with_meridians: :iphone: :computer:
+
+![logo,svg](logo.svg)
+Designed by [DinoSoftLabs](http://www.flaticon.com/authors/dinosoftlabs) from Flaticon
 
 ![woue.jpg](https://s28.postimg.org/pwoavwifx/woue.jpg)
 
