@@ -6,7 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "web": "./node_modules/.bin/webpack-dev-server --inline",
-    "build": "babel-node tools/build.js"
+    "build": "babel-node tools/build.js",
+    "seticon": "yo rn-toolbox:assets --icon"
   },
   "dependencies": {
     "react": "^15.4.2",

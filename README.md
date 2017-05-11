@@ -3,7 +3,9 @@
 ![logo.png](logo.png)
 Designed by [DinoSoftLabs](http://www.flaticon.com/authors/dinosoftlabs) from Flaticon
 
-    TODO remove this...
+Use `npm run seticon icon.png` to change the icon.
+
+    TODO remove most stuff below this...
 
 ##### This project  is an attempt to: 
 * Target multiple platforms(Android, iOS, web, windows and macOS) with react native' APIs.
