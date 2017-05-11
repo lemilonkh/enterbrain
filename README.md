@@ -3,8 +3,7 @@
 ![logo.png](logo.png)
 Designed by [DinoSoftLabs](http://www.flaticon.com/authors/dinosoftlabs) from Flaticon
 
-                 |
-TODO remove this v ...
+    TODO remove this...
 
 ##### This project  is an attempt to: 
 * Target multiple platforms(Android, iOS, web, windows and macOS) with react native' APIs.
